@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <input type="button"  onclick="location.href='/SelectInsertObjectInCassandra/generate'" value="Generate Person" ></input>
+    <p th:text="${userData}" />
+    <input type="button"  onclick="location.href='/SelectInsertObjectInCassandra/greeting'" value="List All People" ></input>
+    <br></br>
+    <p th:text="${name}" />
+</body>
+</html> 
